@@ -127,10 +127,10 @@ extern NOZZLE_PARK_DEF nozzle_park_mks;
 enum DGUS_ScreenID : uint8_t {
   #if ENABLED(USE_MKS_GREEN_UI)
 
-    DGUSLCD_SCREEN_BOOT                 =  1, //33
-    DGUSLCD_SCREEN_MAIN                 =  1 , //60
-    DGUSLCD_SCREEN_STATUS               =  1, //60
-    DGUSLCD_SCREEN_STATUS2              =  1, //60
+    DGUSLCD_SCREEN_BOOT                 =  33, //33
+    DGUSLCD_SCREEN_MAIN                 =  60 , //60
+    DGUSLCD_SCREEN_STATUS               =  60, //60
+    DGUSLCD_SCREEN_STATUS2              =  60, //60
     DGUS_SCREEN_PREHEAT              =  18,
     DGUS_SCREEN_POWER_LOSS           = 100,
     DGUS_SCREEN_MANUALMOVE           = 192,
@@ -140,8 +140,8 @@ enum DGUS_ScreenID : uint8_t {
     DGUS_SCREEN_SDPRINTMANIPULATION  =  15,
     DGUS_SCREEN_SDPRINTTUNE          =  17,
 
-    MKSLCD_SCREEN_BOOT                  =  1, //33
-    MKSLCD_SCREEN_HOME                  =  1,   //60 MKS main page1
+    MKSLCD_SCREEN_BOOT                  =  33, //33
+    MKSLCD_SCREEN_HOME                  =  60,   //60 MKS main page1
     MKSLCD_SCREEN_SETTING               =  62,   // MKS Setting page / no wifi whit
     MKSLCD_SCREEM_TOOL                  =  64,   // MKS Tool page
     MKSLCD_SCREEN_EXTRUDE_P1            =  75,
@@ -149,9 +149,9 @@ enum DGUS_ScreenID : uint8_t {
     MKSLCD_SCREEN_LEVEL                 =  73,
     MKSLCD_AUTO_LEVEL                   =  81,
     MKSLCD_SCREEN_MOVE                  =  66,
-    MKSLCD_SCREEN_PRINT                 =  13, //68
-    MKSLCD_SCREEN_PAUSE                 =  15, //70
-    MKSLCD_SCREEN_CHOOSE_FILE           =  40, //87
+    MKSLCD_SCREEN_PRINT                 =  68, //68
+    MKSLCD_SCREEN_PAUSE                 =  70, //70
+    MKSLCD_SCREEN_CHOOSE_FILE           =  87, //87
     MKSLCD_SCREEN_NO_CHOOSE_FILE        =  88,
     MKSLCD_SCREEN_Config                = 101,
     MKSLCD_SCREEN_Config_MOTOR          = 103,
@@ -167,7 +167,7 @@ enum DGUS_ScreenID : uint8_t {
     MKSLCD_PAUSE_SETTING_MOVE           =  98,
     MKSLCD_PAUSE_SETTING_EX             =  96,
     MKSLCD_PAUSE_SETTING_EX2            =  97,
-    MKSLCD_SCREEN_PRINT_CONFIRM         =  64, //94
+    MKSLCD_SCREEN_PRINT_CONFIRM         =  94, //94
     MKSLCD_SCREEN_EX_CONFIG             = 112,
     MKSLCD_SCREEN_EEP_Config            =  89,
     MKSLCD_SCREEN_PrintDone             =  92,
